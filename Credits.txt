@@ -1,0 +1,10 @@
+Main Management - BetaNCourses
+Scripting - S_A3
+
+Palettes List:
+	BetaNCourses - AntonBlast Palette, Originally from Extra Slot Amy
+	Majunior - STT16-Bit Improved Colors?
+	appa - Totally Not Simon
+	ruby - Yume Nikki/Madotsuki
+	sonk_knuck - No Shades
+	sonk_knuck - Sonic 2 Styled Palette
