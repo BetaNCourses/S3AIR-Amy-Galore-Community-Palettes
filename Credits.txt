@@ -2,12 +2,17 @@ Main Management - BetaNCourses
 Scripting - S_A3
 
 Palettes List:
-	BetaNCourses - AntonBlast Palette, Originally from Extra Slot Amy
-				 - Ultrafix (Sonic 1/CD)
-				 - Ultrafix (Sonic 2)
-				 - Superstars Amy in S1
-	Majunior - STT16-Bit Improved Colors?
-	appa - Totally Not Simon
-	rubyuhhh - Yume Nikki/Madotsuki
-	sonk_knuck - No Shades
-			   - Sonic 2 Styled Palette
+	BetaNCourses: 
+		- AntonBlast Palette, Originally from Extra Slot Amy
+		- Ultrafix (Sonic 1/CD)
+		- Ultrafix (Sonic 2)
+		- Superstars Amy in S1
+	Majunior:
+		- Edited Blue Spheres
+	appa:
+		- Totally Not Simon
+	rubyuhhh: 
+		-Yume Nikki/Madotsuki
+	sonk_knuck: 
+		- No Shades
+		- Sonic 2 Sonic Styled Palette
