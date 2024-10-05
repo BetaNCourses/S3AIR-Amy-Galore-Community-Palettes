@@ -1,0 +1,49 @@
+global u8 AmyMISC.Community.Palette
+global u8 AmyMISC.Community.PaletteSuper
+
+//decide the base palette
+function string AmyMISC.Palette.GetBasePal()
+{
+
+
+	if (AmyMISC.Community.Palette == 0x01)
+		return "character_slot6_antonblast"
+	else if (AmyMISC.Community.Palette == 0x02)
+		return "character_slot6_nikki"
+	else if (AmyMISC.Community.Palette == 0x03)
+		return "character_slot6_flat"
+	else if (AmyMISC.Community.Palette == 0x04)
+		return "character_slot6_justamy"
+	else if (AmyMISC.Community.Palette == 0x05)
+		return "character_slot6_majunior"
+	else if (AmyMISC.Community.Palette == 0x06)
+		return "character_slot6_notsimon"
+	else if (AmyMISC.Community.Palette == 0x07)
+		return "character_slot6_superstars_in_sth1"
+	else if (AmyMISC.Community.Palette == 0x08)
+		return "character_slot6_s2sonic"
+	else if (AmyMISC.Community.Palette == 0x09)
+		return "character_slot6_s1cdultrafix"
+	else if (AmyMISC.Community.Palette == 0x10)
+		return "character_slot6_s2ultrafix"
+
+
+
+}
+
+//decide the super palette
+function u8 AmyMISC.Palette.GetSuperPal()
+{
+	if (AmyMISC.Community.PaletteSuper == 0x00 || AmyMISC.Community.PaletteSuper == 0x06 || AmyMISC.Community.PaletteSuper == 0x07)
+		return 5
+	if (AmyMISC.Community.PaletteSuper == 0x01)
+		return 6
+	if (AmyMISC.Community.PaletteSuper == 0x02)
+		return 7
+	if (AmyMISC.Community.PaletteSuper == 0x03)
+		return 8
+	if (AmyMISC.Community.PaletteSuper == 0x04)
+		return 9
+	if (AmyMISC.Community.PaletteSuper == 0x05)
+		return 10
+}

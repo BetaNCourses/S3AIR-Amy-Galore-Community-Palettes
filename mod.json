@@ -1,15 +1,51 @@
 {
 	"Metadata":
 	{
-		"Name": "Amy Galore Community Palettes ",
-		"Author": "Everything in Credits.txt",
-		"Description": "Yes this does override other palettes if they are even replaced",
-		"GameVersion": "1.0"
+		"Name": "Amy Galore: Color and Sparkles",
+		"Author": "Amy Galore Community",
+		"Description": "Amy! Have you been playing with the face paint again?",
+		"ModVersion": "-1",
+		"GameVersion": "24.02.02.0",
+		"UniqueID": "AGCPalettes",
 	},
+
+	"Settings":
+	{
+		"AGCPALETTES":
+		[
+			{
+				"InternalName": "PALETTE",
+				"DisplayName": "Palettes",
+				"Category": "Palette options",
+				"Variable": "AmyMISC.Community.Palette",
+				"DefaultValue": "0x00",
+				"Options":
+				{
+					"0x00": "Main mod option",
+					"0x01": "ANTONBLAST",
+					"0x02": "Nikki",
+					"0x03": "Flat",
+					"0x04": "Just Amy.",
+					"0x05": "Majunior",
+					"0x06": "not simon",
+					"0x07": "Amy Superstars in STH1",
+					"0x08": "Sonic STH2",
+					"0x09": "STH1/CD Ultrafix",
+					"0x10": "STH2 Ultrafix",
+				}
+			}
+		]
+	},
+	"OtherMods":
+	{
+
+		"AmyGaloreMISC":
+		{
+		"DisplayName": "Amy Galore: Standalone edition",
+		"IsRequired": "1",
+		"Priority": "Lower"
+		}
+	}
+
+
 }
-
-
-
-
-
-
