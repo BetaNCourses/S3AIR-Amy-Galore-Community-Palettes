@@ -26,3 +26,7 @@ Palettes and Contributors/Requesters List:
 		- Chaotix (16-Bit)
 		- Chibi Rose
 		- Just Amy
+	SDG:
+		- SCD Palette Bug 2
+	Plush noob:
+		- Plush noob
