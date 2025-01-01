@@ -11,22 +11,28 @@ Palettes and Contributors/Requesters List:
 	Majunior:
 		- Majunior
 		- Leapster
-	appa:
+	totallyappa:
 		- Totally Not Simon
 	rubyuhhh: 
 		-Yume Nikki/Madotsuki
-	sonk_knuck: 
+	Starsonic: 
 		- No Shades
 		- S2 Sonic
-	speedboi3251:
+	SBSanik:
 		- Lemon Lime
 	montydoesgames:
+		- S3K/CD (16-bit)
 		- S1/S2 (16-Bit)
 		- Modern
+		- Chaotix
 		- Chaotix (16-Bit)
 		- Chibi Rose
 		- Just Amy
 	SDG:
-		- SCD Palette Bug 2
+		- Stardust Speedway Bug
 	Plush noob:
 		- Plush noob
+	Tetopicalsun
+		- Bridget
+	JC_thatone:
+		- Extra Lovely

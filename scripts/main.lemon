@@ -5,63 +5,91 @@ global u8 AmyMISC.Community.PaletteSuper
 function string AmyMISC.Palette.GetBasePal()
 {
 
-
-	if (AmyMISC.Community.Palette == 0x01)
-		return "character_slot6_antonblast"
-
-	else if (AmyMISC.Community.Palette == 0x02)
-		return "character_slot6_s1cdultrafix"
-
-	else if (AmyMISC.Community.Palette == 0x03)
-		return "character_slot6_s2ultrafix"
-
-	else if (AmyMISC.Community.Palette == 0x04)
-		return "character_slot6_superstars_in_sth1"
-
-	else if (AmyMISC.Community.Palette == 0x05)
-		return "character_slot6_takis"
-
-	else if (AmyMISC.Community.Palette == 0x06)
-		return "character_slot6_majunior"
-
-	else if (AmyMISC.Community.Palette == 0x07)
-		return "character_slot6_leapster"
-
-	else if (AmyMISC.Community.Palette == 0x08)
-		return "character_slot6_notsimon"
-
-	else if (AmyMISC.Community.Palette == 0x09)
-		return "character_slot6_nikki"
-
-	else if (AmyMISC.Community.Palette == 0x0A)
-		return "character_slot6_flat"
-
-	else if (AmyMISC.Community.Palette == 0x0B)
+	//Added this mainly due to the option just not working lol
+	if (AmyMISC.Community.Palette == 0x00)
+		return "character_slot6_default"
+	
+	//Palettes coming from other games iirc
+	//yes they are :)
+	else if (AmyMISC.Community.Palette == 0x01)
 		return "character_slot6_s2sonic"
 
-	else if (AmyMISC.Community.Palette == 0x0C)
-		return "character_slot6_lemonlime"
+	else if (AmyMISC.Community.Palette == 0x02)
+		return "character_slot6_scdbug2"
 
-	else if (AmyMISC.Community.Palette == 0x0D)
+	else if (AmyMISC.Community.Palette == 0x03)
+		return "character_slot6_chaotix"
+		
+	else if (AmyMISC.Community.Palette == 0x04)
+		return "character_slot6_chaotix16bit"
+	
+	else if (AmyMISC.Community.Palette == 0x05)
+		return "character_slot6_leapster"
+	
+	else if (AmyMISC.Community.Palette == 0x06)
+		return "character_slot6_s3kcd16bit"
+
+	else if (AmyMISC.Community.Palette == 0x07)
 		return "character_slot6_s1s216bit"
 
-	else if (AmyMISC.Community.Palette == 0x0E)
+	else if (AmyMISC.Community.Palette == 0x08)
+		return "character_slot6_s1cdultrafix"
+
+	else if (AmyMISC.Community.Palette == 0x09)
+		return "character_slot6_s2ultrafix"
+
+	else if (AmyMISC.Community.Palette == 0x0A)
+		return "character_slot6_superstars_in_sth1"
+
+	else if (AmyMISC.Community.Palette == 0x0B)
+		return "character_slot6_antonblastalt"
+	
+	else if (AmyMISC.Community.Palette == 0x0C)
+		return "character_slot6_antonblastesa"
+	
+	else if	(AmyMISC.Community.Palette == 0x0D)
 		return "character_slot6_modern"
-
+		
+	else if (AmyMISC.Community.Palette == 0x0E)
+		return "character_slot6_justamy"
+	
 	else if (AmyMISC.Community.Palette == 0x0F)
-		return "character_slot6_chaotix16bit"
-
-	else if (AmyMISC.Community.Palette == 0x10)
 		return "character_slot6_chibirose"
+	
+	//Custom palettes
+
+	//Debating if this should stay in the user made palettes or originated from games category, since it's based off of Takis from SRB2... eh whatever
+	else if (AmyMISC.Community.Palette == 0x10)
+		return "character_slot6_takis"
 
 	else if (AmyMISC.Community.Palette == 0x11)
-		return "character_slot6_justamy"
-
+		return "character_slot6_flat"
+	
 	else if (AmyMISC.Community.Palette == 0x12)
-		return "character_slot6_plushnoob"
+		return "character_slot6_lemonlime"
 
 	else if (AmyMISC.Community.Palette == 0x13)
-		return "character_slot6_scdbug2"
+		return "character_slot6_nikki"
+	
+	else if (AmyMISC.Community.Palette == 0x14)
+		return "character_slot6_bridget"
+
+	else if (AmyMISC.Community.Palette == 0x15)
+		return "character_slot6_jc"
+
+	else if (AmyMISC.Community.Palette == 0x16)
+		return "character_slot6_notsimon"
+	
+	else if (AmyMISC.Community.Palette == 0x17)
+		return "character_slot6_metalmadness"
+	
+	//Here should go those palettes with user names yet no name
+
+	else if (AmyMISC.Community.Palette == 0x18)
+		return "character_slot6_majunior"
+
+	else if (AmyMISC.Community.Palette == 0x19)
+		return "character_slot6_plushnoob"
 }
 
 //decide the super palette

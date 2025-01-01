@@ -2,9 +2,10 @@
 	"Metadata":
 	{
 		"Name": "Amy Galore: Color and Sparkles",
-		"Author": "Amy Galore Community",
-		"Description": "Amy! Have you been playing with the face paint again?\n\nEnjoy the Palettes made by the Amy Galore Community!",
-		"ModVersion": "-1",
+		"Author": "S_A3, BetaNCourses, Team Galore Community",
+		"Description": "Amy! Have you been playing with the face paint again?
+Enjoy the Palettes made by the Amy Galore Community!",
+		"ModVersion": "1.0",
 		"GameVersion": "24.02.02.0",
 		"UniqueID": "AGCPalettes",
 	},
@@ -21,26 +22,32 @@
 				"DefaultValue": "0x00",
 				"Options":
 				{
-					"0x00": "Main Mod Option",
-					"0x01": "ANTONBLAST",
-					"0x02": "S1/CD Ultrafix",
-					"0x03": "S2 Ultrafix",
-					"0x04": "Superstars Amy in S1",
-					"0x05": "Takis",
-					"0x06": "Majunior",
-					"0x07": "Leapster",
-					"0x08": "Totally Not Simon",
-					"0x09": "Yume Nikki/Madotsuki",
-					"0x0A": "No Shades",
-					"0x0B": "S2 Sonic",
-					"0x0C": "Lemon Lime",
-					"0x0D": "S1/S2 (16-Bit)",
-					"0x0E": "Modern",
-					"0x0F": "Chaotix (16-Bit)",
-					"0x10": "Chibi Rose",
-					"0x11": "Just Amy",
-					"0x12": "Plush noob",
-					"0x13": "SCD Palette Bug 2",
+					"0x00": "Default Colors (Origins)",
+					"0x01": "S2 Sonic\n(by Starsonic)",
+					"0x02": "Stardust Speedway Bug",
+					"0x03": "Chaotix",
+					"0x04": "Chaotix\n(16-bit Limited)",
+					"0x05": "Leapster",
+					"0x06": "S3K/CD Origins\n(16-bit Limited)",
+					"0x07": "S1/S2 Origins\n(16-bit Limited)",
+					"0x08": "Ultrafix\n(S1/CD)",
+					"0x09": "Ultrafix\n(S2)",
+					"0x0A": "Superstars Amy in S1",	
+					"0x0B": "ANTONBLAST\n(Anton-like)",
+					"0x0C": "ANTONBLAST\n(Annie-like/ESA)",
+					"0x0D": "Modern Amy",
+					"0x0E": "Just Amy",
+					"0x0F": "Chibi Rose",
+					"0x10": "Purkis' Dead Cousin\n(Takis the Fox-like)",
+					"0x11": "Flat/No shades\n(by Starsonic)",
+					"0x12": "Lemon Lime\n(by SBSanik)",
+					"0x13": "Yume Nikki/Madotsuki\n(by rubyuhhh)",
+					"0x14": "Bridget\n(by Tetopicalsun)",
+					"0x15": "Extra Lovely\n(by JC_thatone)",
+					"0x16": "Totally Not Simon\n(by totallyappa)",
+					"0x17": "A Metal Madness\nInspired Palette",
+					"0x18": "Majunior's Palette",
+					"0x19": "Plush Noobs' Palette",
 				}
 			}
 		]
@@ -48,7 +55,7 @@
 	"OtherMods":
 	{
 
-		"AmyGaloreMISC":
+		"AmyGaloreMisc":
 		{
 		"DisplayName": "Amy Galore: Standalone edition",
 		"IsRequired": "1",
